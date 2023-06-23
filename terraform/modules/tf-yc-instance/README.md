@@ -34,10 +34,12 @@ attribute token must be set explicitly by variable for provider
 
 ## Input parameters:
 
-| Variable      | Description                            | Possible values                                       | Default Value |
-|---------------|----------------------------------------|-------------------------------------------------------|---------------|
-| instance_zone | Instance availability zone             | "ru-central1-a" ,  "ru-central1-b" ,  "ru-central1-c" | ru-central1-a |
-| platform_id   | Type of the virtual machine to create. | any                                                   | standard-v1   |
+| Variable      | Description                                     | Possible values                                       | Default Value        |
+|---------------|-------------------------------------------------|-------------------------------------------------------|----------------------|
+| instance_zone | Instance availability zone                      | "ru-central1-a" ,  "ru-central1-b" ,  "ru-central1-c" | ru-central1-a        |
+| platform_id   | Type of the virtual machine to create.          | any                                                   | standard-v1          |
+| image_id      | OS image id of created VM                       | any                                                   | fd80qm01ah03dkqb14lc |
+| subnet_id     | Network subnet id to which will be connected VM | any                                                   | e9bedb7iti13lungfmgg |
 
 ## Output:
 

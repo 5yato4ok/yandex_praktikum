@@ -15,3 +15,15 @@ variable "platform_id" {
   type        = string
   description = "Type of the virtual machine to create."
 }
+
+variable "instance_image_id" {
+  default     = "fd80qm01ah03dkqb14lc"
+  type        = string
+  description = "OS image id of created VM"
+}
+
+variable "instance_subnet_id" {
+  default     = "e9bedb7iti13lungfmgg"
+  type        = string
+  description = "Network subnet id to which will be connected VM"
+}
